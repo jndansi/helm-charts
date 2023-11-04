@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  fruit-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-04T21:50:43.119615282Z"
+    description: A Helm chart for Kubernetes
+    digest: fbb9b9bd7445120e7223385194edc35e81b32e4cdddc4a350e073fca828e62ba
+    name: fruit-app
+    type: application
+    urls:
+    - https://github.com/jndansi/helm-charts/releases/download/fruit-app-0.1.3/fruit-app-0.1.3.tgz
+    version: 0.1.3
   super:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/jndansi/helm-charts/releases/download/super-0.1.1/super-0.1.1.tgz
     version: 0.1.1
-generated: "2023-11-04T21:08:47.732673299Z"
+generated: "2023-11-04T21:50:43.119620182Z"
